@@ -1,10 +1,11 @@
+"use client";
 import React from "react";
 import { Canvas } from "@react-three/fiber";
 import Model from "./Model";
 import { Suspense } from "react";
 import Loader from "./Loader";
 
-const Scene: React.FC = () => {
+const Scene = () => {
   return (
     <Canvas
       shadows
